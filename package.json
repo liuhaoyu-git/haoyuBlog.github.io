@@ -1,0 +1,14 @@
+{
+  "name": "haoyu_blog",
+  "version": "1.0.0",
+  "description": "haoyu的博客",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs",
+    "deploy": "sh deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-theme-reco": "^1.6.11"
+  }
+}
